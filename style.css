@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-weight: 400;
+    font-size: 1em;
+}
+body{
+    background-color:bisque;
+    position: relative;
+    margin: 0%;
+    font-weight: 450;
+
+}
+ul li{
+    list-style-type: none;
+    font-size: 1.15em;
+}
+#top{
+    background-color:rgb(61, 5, 93);
+    margin-top: 0;
+    position: relative;
+}
+.list{
+    display: flex;
+    flex-flow: row-reverse;
+    gap: 3rem;
+    padding: 0.8rem 5rem; 
+}
+.list a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.list a:hover{
+    color: rgb(199, 149, 69);
+    text-decoration: none;
+}
+#main{
+  background-color: rgba(253, 216, 116, 0.86);
+  max-width: 100%;
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: flex-start;
+}
+.flines{
+    display: flex;
+    flex-flow: column;
+    padding-top: 7%;
+    padding-right: 30%;
+    transform: translateX(-30%);
+}
+.l1{
+    color: rgb(153, 126, 53);
+    font-size: 2.5rem;
+}
+.l2{
+    color: black;
+    font-size:2rem;
+}
+.l3{
+    color: rgb(209, 114, 5);
+    font-size: 1.17rem;
+}
+#Intro{
+    display: block;
+    transform: translate(10%);
+    max-width: 82.5%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 2.5rem;
+    color: #D8B825EE;
+    padding-bottom: 20px;
+}
+.sl{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.1rem;
+}
+#gallery{
+    display: block;
+    transform: translate(10%);
+    max-width: 82.5%;
+}
+#edu{
+    display: block;
+    transform: translate(10%);
+    max-width: 82.5%;
+}
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 32%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  #contact{
+    background-color: rgb(61, 5, 93);
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  @media screen and(max-width: 425px) {
+    .insta{
+      width: 50%;
+    }
+    .fb{
+      width: 50%;
+    }
+    .ln{
+      width: 50%;
+    }
+    .gh{
+      width: 50%;
+    }    
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    .flines{
+      display: flex;
+      flex-flow: column;
+      padding-top: 10%;
+      padding-right: 25%;
+      transform: translateX(-30%);
+  }
+}
+@media screen and (max-width: 980px) {
+  .flines{
+    display: flex;
+    flex-flow: column;
+    padding-top: 10%;
+    padding-right: 15%;
+    transform: translateX(-30%);
+  }
+}
+@media screen and (max-width: 770px) {
+  .flines{
+    display: flex;
+    flex-flow: column;
+    padding-top: 13%;
+    padding-right: 10%;
+    transform: translateX(-30%);
+  }
+}
+@media screen and (max-width: 720px){
+  .flines{
+    padding-right: 6%;
+  }
+}
+@media screen and (max-width: 490px){
+  .list{
+    display: flex;
+    flex-flow: row-reverse;
+    gap: 3rem;
+    padding: 0.8rem 2rem; 
+  }
+}
+@media screen and (max-width: 406px){
+  .list{
+    display: flex;
+    flex-flow: row-reverse;
+    gap: 2rem;
+    padding: 0.8rem 1rem;
+  }
+}
+@media screen and (max-width: 340px){
+  *{
+    font-size: 0.985em;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 2.5em;
+    color: #D8B825EE;
+    padding-bottom: 20px;
+    }
+  
+}
